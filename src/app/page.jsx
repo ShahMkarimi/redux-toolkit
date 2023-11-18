@@ -1,9 +1,17 @@
-import Image from 'next/image'
+"use client"
+import { Provider } from "react-redux";
+import Store from "./store";
+import Counter from "./counter";
+   
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <Provider store={Store}>
+    <main className="flex flex-col p-24">
         <h1>tool kite</h1>
+        <Counter />
     </main>
+    </Provider>
   )
 }
