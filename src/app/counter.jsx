@@ -16,6 +16,7 @@ const Counter = () => {
           <br />
           <button className="m-2 p-2 bg-slate-800 hover:bg-slate-900 cursor-pointer" onClick={() => dispatch(incrementAction())}>Increment</button>
           <button className="m-2 p-2 bg-slate-800 hover:bg-slate-900 cursor-pointer" onClick={() => dispatch(decrementAction())}>decrement</button>
+          <button className="m-2 p-2 bg-slate-800 hover:bg-slate-900 cursor-pointer" onClick={() => dispatch(decrementAction())}>decrement</button>
         </>
      );
 }
