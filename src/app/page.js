@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <main>
-      <h1 className="w-full h-screen grid place-items-center text-5xl">
+      <h1 className="w-full bg-black">
         Welcome to Next + Redux Projects
       </h1>
     </main>
