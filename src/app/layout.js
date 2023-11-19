@@ -6,7 +6,6 @@ import Provide from "@/Redux/provide";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-
   title: "redux-toolkit & nextjs",
   description: "tree app /counter/ todo list/ shopping cart",
 };
