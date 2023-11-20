@@ -10,6 +10,7 @@ const initialState = {
       price: 350,
       image_url: "https://procell.pe/wp-content/uploads/2020/10/a51.png",
     },
+
     {
       id: 2,
       title: "Samsung Galaxy A12",
@@ -17,6 +18,7 @@ const initialState = {
       image_url:
         "https://cdn.ycan.shop/stores/3b145e8182eb3d8cbdd6633fd0df4d38/products/mfc0KT7Cq53NqdCLRPwjTUp75zpoV2NLmNMXEG52.png",
     },
+    
     {
       id: 3,
       title: "Samsung Galaxy S21",
