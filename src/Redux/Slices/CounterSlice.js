@@ -11,11 +11,14 @@ export const counterSlice = createSlice({
     increment: (state) => {
       state.value += 1;
     },
+
     decrement: (state) => {
-      state.value > 0 ? (state.value -= 1) : (state.value = 0);
+       state.value > 1 ? (state.value -= 1) : (state.value = 1); //in this case state counter didn't decrease more than 1
+      
     },
+
     reset: (state) => {
-      state.value = 0;
+      state.value = 1;
     },
   },
 });
