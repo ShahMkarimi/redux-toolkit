@@ -22,7 +22,7 @@ const SingleShop = () => {
           <button
             onClick={() => dispatch(removeCard(item))}
             className="hover:opacity-75 text-[1.5rem]">
-            🗑️
+            
           </button>
         </div>
       ))}

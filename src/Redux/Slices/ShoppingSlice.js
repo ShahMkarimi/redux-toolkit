@@ -1,4 +1,5 @@
 "use client";
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
@@ -36,7 +37,6 @@ export const shoppingSlice = createSlice({
     addToCard: (state, action) => {
       state.shoppingCart.push(action.payload);
     },
-    
     removeCard: (state, action) => {
       state.shoppingCart = state.shoppingCart.filter(
         (card) => card.id !== action.payload.id
