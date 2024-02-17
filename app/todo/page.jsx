@@ -6,8 +6,8 @@ import { AiOutlinePlus } from "react-icons/ai";
 import Picker from "@emoji-mart/react";
 import data from "@emoji-mart/data";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, updateTodo } from "@/Redux/Slices/TodoSlice";
-import SingleTodo from "@/components/Todo";
+import { addTodo, updateTodo } from "../../Redux/Slices/TodoSlice";
+import SingleTodo from "../../components/Todo";
 
 const Todo = () => {
   const [showEmoji, setShowEmoji] = useState(false);
@@ -64,7 +64,7 @@ const Todo = () => {
   return (
     <div className="pt-3rem w-[90%] sm:w-[70%] md:w-[60%] lg:w-[40%] mx-auto mt-[11rem]">
       <h1 className="text-2xl font-medium text-center capitalize pb-[2rem]">
-        tailwind todo list
+        list your daylay work
       </h1>
 
       {/* todo input  */}

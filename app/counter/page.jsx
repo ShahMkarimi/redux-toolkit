@@ -1,6 +1,6 @@
 "use client";
 
-import { increment, decrement, reset } from "@/Redux/Slices/CounterSlice";
+import { increment, decrement, reset } from "../../Redux/Slices/CounterSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const Counter = () => {

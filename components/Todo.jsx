@@ -10,7 +10,7 @@ import React, { useState } from "react";
 import moment from "moment/moment";
 import Layer from "./Layer";
 import { useDispatch, useSelector } from "react-redux";
-import { isCompleted, removeTodo } from "@/Redux/Slices/TodoSlice";
+import { isCompleted, removeTodo } from "../Redux/Slices/TodoSlice";
 
 const SingleTodo = ({ setEditTodo }) => {
   const [showText, setShowText] = useState(false);
