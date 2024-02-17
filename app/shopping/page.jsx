@@ -1,8 +1,8 @@
 "use client";
 
-import { totalPrice } from "@/Redux/Slices/ShoppingSlice";
-import Shop from "@/components/Shop";
-import SingleShop from "@/components/SingleShop";
+import { totalPrice } from "../../Redux/Slices/ShoppingSlice";
+import Shop from "../../components/Shop";
+import SingleShop from "../../components/SingleShop";
 import React from "react";
 import { useSelector } from "react-redux";
 

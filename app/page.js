@@ -1,4 +1,4 @@
-import ToggleLeft from "@/components/Header/toggleLeft";
+import ToggleLeft from "../components/Header/toggleLeft";
 
 
 export default function App() {

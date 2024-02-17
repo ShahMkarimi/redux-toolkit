@@ -2,7 +2,7 @@ import "./globals.css";
 import "./syle.css"
 import { Inter } from "next/font/google";
 import Header from "../components/Header/Header";
-import Provide from "@/Redux/provide";
+import Provide from "../Redux/provide";
 
 const inter = Inter({ subsets: ["latin"] });
 

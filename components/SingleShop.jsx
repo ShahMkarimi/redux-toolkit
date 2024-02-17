@@ -1,4 +1,4 @@
-import { removeCard } from "@/Redux/Slices/ShoppingSlice";
+import { removeCard } from "../Redux/Slices/ShoppingSlice";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
